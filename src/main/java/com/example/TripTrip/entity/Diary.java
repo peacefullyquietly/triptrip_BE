@@ -5,14 +5,6 @@ import lombok.*;
 
 import java.sql.Timestamp;
 
-
-// 내가 지금부터 알아봐야 할 것들
-// 1. Entity 어노테이션의 종류에 대하여
-// 2. lombok에 대하여 (@ToString, @Lob)
-// 3. text에 대한 어노테이션들
-
-// @Column(columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
-
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
